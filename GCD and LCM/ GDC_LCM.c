@@ -29,6 +29,9 @@ int main()
 
     }
     printf("The GCD is: %d\n", higher);
+    
+    int LCM = ((arr[0]*arr[1])/higher);
+    printf("The LCM is: %d\n", LCM);
 
     return 0;
 }
